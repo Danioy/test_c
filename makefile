@@ -11,4 +11,4 @@ clean:
 	rm -f *.o *.so *~
 
 test: main.so
-	pytest -v test_main.py
+	pytest -vv --durations=0 test_main.py
